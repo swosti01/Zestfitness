@@ -1,0 +1,61 @@
+    input[type=text], input[type=password] 
+        {
+        width: 97%;
+        padding: 10px;
+        margin: 5px 0 22px 0;
+        display: inline-block;
+        border: none;
+        background: #F5F5F5;
+        }
+    hr 
+        {
+        border: 1px solid #e6e6e6;
+        margin-bottom: 5px;
+        }
+    .registerbutton
+        {
+        background-color: #29a329;
+        color: white;
+        padding: 15px 20px;
+        margin: 10px 0px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        text:bold;
+        }
+        nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+            font-size: 20px;
+            font-weight: 600;
+          }
+    
+
+/* for nav bar */
+
+  img {
+    vertical-align: middle;
+    border-style: none;
+    height: 75px;
+  }
+  .bg-dark {
+    background-color: black !important;
+  }
+  
+  body {
+      margin: 0;
+      font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #212529;
+      text-align: left;
+      
+    }
+
+  .navbar-dark .navbar-nav .nav-link {
+      color: rgba(re255,255,255,.5);
+      
+  }
+  .nav-item .nav-link:hover {
+     
+      color: red;
+  }

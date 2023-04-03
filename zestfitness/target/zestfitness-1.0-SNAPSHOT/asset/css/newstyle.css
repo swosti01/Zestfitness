@@ -1,0 +1,256 @@
+/*css for home page*/ 
+  
+   css for nav bar  
+img {
+  vertical-align: middle;
+  border-style: none;
+  height: 75px;
+}
+.bg-dark {
+  background-color: black !important;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: black;}
+
+.h5,
+h5 {
+  color: whitesmoke;
+  font-weight: 700;
+  font-size: 2.25rem;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  text-shadow: 2px 2px 10px black;
+}
+
+.carousel {
+    position: relative;
+    height: 680px;
+  }
+  .carousel-caption {
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    top: 45%;
+  }
+  .carousel-caption h5{
+    font-size: 70px;
+    text-shadow: 2px 2px 20px black;
+    font-family: "Poppins", sans-serif;
+  }
+.carousel-caption p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 700;
+  font-size: 3.35rem;
+  color: yellow;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  text-shadow: 2px 2px 20px black;
+}
+
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+    font-size: 20px;
+    font-weight: 600;
+}
+.col-lg-4 .h2, h2 {
+    font-size: 2rem;
+    color: yellowgreen;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    text-shadow: 2px 2x 3px black;
+}
+.col-lg-4{
+    max-width: 32.333333%;
+    background-color: white;
+    color: black;
+    margin-right: 7px;
+    margin-bottom: 7px;
+}
+.rounded-circle {
+    border-radius: 0%!important;
+    padding-top: 0px;
+    margin-top: 10px;
+    width: 100%;
+    height: 40%;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    color: black;
+   
+    font-family: "Poppins", sans-serif;
+ 
+}
+.col-md-7 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+    background-color: whitesmoke;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(re255,255,255,.5);
+    
+}
+.nav-item .nav-link:hover {
+   
+    color: red;
+}
+#login:hover{
+ background-color:rgb(18, 243, 18);
+}
+#signup:hover{
+    background-color:rgb(18, 243, 18);
+   }
+
+#login{
+    background-color: yellow;
+    font-weight: 600;
+    margin-left:10px;
+
+}
+#signup{
+    background-color: red;
+    font-weight: 600;
+}
+#login .h5, h5 {
+    
+    font-weight: 700;
+    font-size: 2.25rem;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    text-shadow: 0 0 0 black;
+
+}
+.form-signin .mb-4, .my-4 {
+    margin-bottom: 1.5rem!important;
+    margin-left: 10rem;
+}
+
+.modal-body {
+    position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    background-color: black;
+    padding: 1rem;
+    color: white;
+}
+.modal-body .mb-4, .my-4 {
+    margin-bottom: 1.5rem!important;
+    margin-left: 9rem;
+    height: 105px;
+}
+.modal-content{
+    background-color: black;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    background-color: lightcyan;
+  }
+  
+.btn-primary {
+   
+    color: white;
+    font-weight: 600;
+    margin-left: 12rem;
+}
+ paage locator 
+
+.breadcrumb{
+    background-color: black;
+
+}
+ our ffeatures 
+.features_area .row .col-xl-12 .section_title{
+    background-color: black;
+    color: white;
+    padding-top: 100px;
+  }
+  .features_area .row .col-xl-12 .section_title h3{
+    font-size: 50px;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+    padding-top: 5px;
+  }
+  
+  .features_area .row .col-xl-12 .section_title p{
+    padding-bottom: 4px;
+  }
+
+   featureetheading 
+  .text-muted {
+    color: #6c757d !important;
+    font-size: 40px;
+  }
+ for about us 
+.mb-4, .my-4 {
+    margin-bottom: 1.5rem!important;
+    color: white;
+    background-color: black;
+    height: 350px;
+}
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: black;
+    border-radius: .3rem;
+}
+.jumbotron-heading .h1, h1 {
+    font-size: 2.5rem;
+    padding-left: 15px;
+    font-style: oblique;
+}
+.album{
+  background-image: url("/assets/image/f.jpg"); 
+ display: cover;
+}
+ coaching  .row .col-lg-4 ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+} .row .col-lg-4 ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    background-color: transparent;
+    font-weight: 700;
+    -webkit-text-decoration-skip: objects;
+}
+ .row .col-lg-4 ul li {
+    display: inline block;
+    text-decoration: none;
+  
+}
+ for footer 
+.foo-nav-links a {
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+.foo-nav-links a:hover{
+    color: red;
+}
+
+ for login register page {}
+
+      
+      
+
